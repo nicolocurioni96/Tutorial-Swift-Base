@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1524CF82AB0923E00C09BC8 /* String e Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1524CF72AB0923E00C09BC8 /* String e Int.swift */; };
 		A1FD95292AB0685600A3A134 /* Tutorial_Swift_BaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FD95282AB0685600A3A134 /* Tutorial_Swift_BaseApp.swift */; };
 		A1FD952B2AB0685600A3A134 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FD952A2AB0685600A3A134 /* ContentView.swift */; };
 		A1FD952D2AB0685800A3A134 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1FD952C2AB0685800A3A134 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A1524CF72AB0923E00C09BC8 /* String e Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String e Int.swift"; sourceTree = "<group>"; };
 		A1FD95252AB0685600A3A134 /* Tutorial Swift Base.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tutorial Swift Base.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1FD95282AB0685600A3A134 /* Tutorial_Swift_BaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial_Swift_BaseApp.swift; sourceTree = "<group>"; };
 		A1FD952A2AB0685600A3A134 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +36,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A1524CF62AB0921100C09BC8 /* 2 String e Int */ = {
+			isa = PBXGroup;
+			children = (
+				A1524CF72AB0923E00C09BC8 /* String e Int.swift */,
+			);
+			path = "2 String e Int";
+			sourceTree = "<group>";
+		};
 		A1FD951C2AB0685600A3A134 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 				A1FD95282AB0685600A3A134 /* Tutorial_Swift_BaseApp.swift */,
 				A1FD952A2AB0685600A3A134 /* ContentView.swift */,
 				A1FD95362AB0718100A3A134 /* 1 Variabili e Costanti */,
+				A1524CF62AB0921100C09BC8 /* 2 String e Int */,
 				A1FD952C2AB0685800A3A134 /* Assets.xcassets */,
 				A1FD952E2AB0685800A3A134 /* Preview Content */,
 			);
@@ -148,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1524CF82AB0923E00C09BC8 /* String e Int.swift in Sources */,
 				A1FD952B2AB0685600A3A134 /* ContentView.swift in Sources */,
 				A1FD95382AB071B200A3A134 /* Variabili e Costanti.swift in Sources */,
 				A1FD95292AB0685600A3A134 /* Tutorial_Swift_BaseApp.swift in Sources */,
