@@ -38,6 +38,13 @@ struct String_e_Int: View {
     var theAmzingWorldOfCodingTotalChararacters = 0
     var theAmzingWorldOfCodingTotalChararactersString = ""
     
+    // Integers
+    let minValue = UInt8.min // 0
+    let maxValue = UInt8.max // 255
+    
+    var integerData = ""
+    var anInteger = 27
+    
     init() {
         /// String check with`isEmpty` vs `count == 0`
         /*if emptyString.isEmpty {
@@ -60,11 +67,19 @@ struct String_e_Int: View {
         theAmzingWorldOfCodingTotalChararacters = theAmzingWorldOfCoding.count
         
         theAmzingWorldOfCodingTotalChararactersString = "The number of characters in the \"theAmzingWorldOfCoding\" string contains \(theAmzingWorldOfCodingTotalChararacters) characters."
+        
+        // Integers
+        integerData = "The min value of UInt8 is: \(minValue) and the max value is: \(maxValue)"
+        
+        // Integer Bounds
+        // UInt & Int
+        // UInt Unsigned Integer (no - sign)
+        // Int Signed Integer (- or + sign)
     }
     
     var body: some View {
         VStack {
-            Text(theAmzingWorldOfCodingTotalChararactersString)
+            Text(integerData)
                 .padding()
         }
     }
