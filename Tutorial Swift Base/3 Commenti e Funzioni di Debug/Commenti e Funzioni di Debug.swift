@@ -9,15 +9,50 @@ import SwiftUI
 
 struct Commenti_e_Funzioni_di_Debug: View {
     
-    init() {
-        
-    }
+    // Test comment, on a single line
+    /*
+     Another comment,
+     
+     on a different
+     line
+     */
+    
+    /// Test well `documented` comment..
     
     var body: some View {
         VStack {
-            Text("Hello, World")
+            Text(greetings(from: "Tim Cook", message: "I hope you will reach your targets and succeed in your life and career.\n\n- Tim"))
                 .padding()
         }
+    }
+    
+    /// Greetings function
+    ///
+    /// - Parameters:
+    ///    - from: The sender of the message
+    ///    - message: The sender message
+    func greetings(from: String, message: String) -> String {
+        let greetingMessage = """
+        Greetings from: \(from),
+        
+        Content Message: \(message)
+        
+        Date: 14/09/2023
+        
+        """
+        
+        // Debug functions
+        // * Uncomment to test
+        //print(greetingMessage)
+        //print("\n\n")
+        //debugPrint(greetingMessage)
+        
+        /// ClosedRange operator with `print` vs `debugPrint` functions
+        print(1...5) // console output: 1...5
+        
+        debugPrint(1...5) // console output: ClosedRange(1...5)
+        
+        return greetingMessage
     }
 }
 
