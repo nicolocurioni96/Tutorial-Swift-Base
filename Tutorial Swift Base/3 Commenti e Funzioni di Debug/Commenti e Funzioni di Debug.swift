@@ -29,7 +29,7 @@ struct Commenti_e_Funzioni_di_Debug: View {
     /// Greetings function
     ///
     /// - Parameters:
-    ///    - from: The sender of the message
+    ///    - from:The sender of the message
     ///    - message: The sender message
     func greetings(from: String, message: String) -> String {
         let greetingMessage = """
@@ -42,14 +42,8 @@ struct Commenti_e_Funzioni_di_Debug: View {
         """
         
         // Debug functions
-        // * Uncomment to test
-        //print(greetingMessage)
-        //print("\n\n")
-        //debugPrint(greetingMessage)
-        
-        /// ClosedRange operator with `print` vs `debugPrint` functions
+        /// Closed range operator with `print` vs `debugPrint` functions
         print(1...5) // console output: 1...5
-        
         debugPrint(1...5) // console output: ClosedRange(1...5)
         
         return greetingMessage
