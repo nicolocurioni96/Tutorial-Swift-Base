@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A1524CF82AB0923E00C09BC8 /* String e Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1524CF72AB0923E00C09BC8 /* String e Int.swift */; };
 		A1565ED72AB4A32100E9F066 /* Bool e Condizioni.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1565ED62AB4A32100E9F066 /* Bool e Condizioni.swift */; };
+		A190712E2AB4C9D3004E260C /* GliArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = A190712D2AB4C9D3004E260C /* GliArray.swift */; };
 		A1A812812AB32D9100A67AC8 /* Double e Float.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A812802AB32D9100A67AC8 /* Double e Float.swift */; };
 		A1B7F7752AB31A9A00631198 /* Commenti e Funzioni di Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B7F7742AB31A9A00631198 /* Commenti e Funzioni di Debug.swift */; };
 		A1FD95292AB0685600A3A134 /* Tutorial_Swift_BaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FD95282AB0685600A3A134 /* Tutorial_Swift_BaseApp.swift */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		A1524CF72AB0923E00C09BC8 /* String e Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String e Int.swift"; sourceTree = "<group>"; };
 		A1565ED62AB4A32100E9F066 /* Bool e Condizioni.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bool e Condizioni.swift"; sourceTree = "<group>"; };
+		A190712D2AB4C9D3004E260C /* GliArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GliArray.swift; sourceTree = "<group>"; };
 		A1A812802AB32D9100A67AC8 /* Double e Float.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double e Float.swift"; sourceTree = "<group>"; };
 		A1B7F7742AB31A9A00631198 /* Commenti e Funzioni di Debug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Commenti e Funzioni di Debug.swift"; sourceTree = "<group>"; };
 		A1FD95252AB0685600A3A134 /* Tutorial Swift Base.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tutorial Swift Base.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,6 +58,14 @@
 				A1565ED62AB4A32100E9F066 /* Bool e Condizioni.swift */,
 			);
 			path = "5 Bool e Condizioni";
+			sourceTree = "<group>";
+		};
+		A190712A2AB4C99C004E260C /* 6 Array */ = {
+			isa = PBXGroup;
+			children = (
+				A190712D2AB4C9D3004E260C /* GliArray.swift */,
+			);
+			path = "6 Array";
 			sourceTree = "<group>";
 		};
 		A1A8127F2AB32D8100A67AC8 /* 4 Double e Float */ = {
@@ -100,6 +110,7 @@
 				A1B7F7732AB31A7200631198 /* 3 Commenti e Funzioni di Debug */,
 				A1A8127F2AB32D8100A67AC8 /* 4 Double e Float */,
 				A1565ED52AB4A2FE00E9F066 /* 5 Bool e Condizioni */,
+				A190712A2AB4C99C004E260C /* 6 Array */,
 				A1FD952C2AB0685800A3A134 /* Assets.xcassets */,
 				A1FD952E2AB0685800A3A134 /* Preview Content */,
 			);
@@ -196,6 +207,7 @@
 				A1A812812AB32D9100A67AC8 /* Double e Float.swift in Sources */,
 				A1565ED72AB4A32100E9F066 /* Bool e Condizioni.swift in Sources */,
 				A1FD952B2AB0685600A3A134 /* ContentView.swift in Sources */,
+				A190712E2AB4C9D3004E260C /* GliArray.swift in Sources */,
 				A1FD95382AB071B200A3A134 /* Variabili e Costanti.swift in Sources */,
 				A1B7F7752AB31A9A00631198 /* Commenti e Funzioni di Debug.swift in Sources */,
 				A1FD95292AB0685600A3A134 /* Tutorial_Swift_BaseApp.swift in Sources */,
