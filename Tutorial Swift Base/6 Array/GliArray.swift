@@ -13,27 +13,31 @@ struct GliArray: View {
     
     init() {
         // Add an item
-        names.append("John")
-        names.append("Mario")
-        names.append("Lisa")
+        names += ["John", "Maria", "Steve", "Lisa"]
         
         // Remove an item at index
         // (uncomment to test)
-        names.remove(at: 2) // Mario has been removed!
+        names.remove(at: 2)
+        
+        // Remove all items in the list
+        // (uncomment to test)
+        // names.removeAll()
         
         // Create an Array with a Default Value
-        let fourIntegers = Array(repeating: 27, count: 5)
+        // console output: ["27", "27", "27", "27", "27"]
+        // (uncomment to test)
+        // let fiveTimesTwentySevenIntegerNumbers = Array(repeating: 27, count: 5)
         
-        print(fourIntegers)
+        // print(fiveTimesTwentySevenIntegerNumbers)
         
-        names[1] = "Steve"
-        
+        // Edited an item in the list. w/a new one
+        names[1] = "Luca"
     }
     
     var body: some View {
         VStack {
             ForEach(names, id: \.self) { name in
-                Text("Hello, \(String(name))")
+                Text("Hello, " + name)
                     .padding()
             }
         }
